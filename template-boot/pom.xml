@@ -2,11 +2,11 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ovit.agriLoan</groupId>
-	<artifactId>agriLoan-boot</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<groupId>com.template</groupId>
+	<artifactId>template-boot</artifactId>
+	<version>1.0</version>
 
-	<name>agriLoan-boot</name>
+	<name>template-boot</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,9 +16,9 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>com.ovit.agriLoan</groupId>
-			<artifactId>agriLoan-lib</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<groupId>com.template</groupId>
+			<artifactId>template-lib</artifactId>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -1,0 +1,14 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /template
+spring:
+  # redis
+  redis:
+    host: 192.168.3.235
+    port: 32100
+    database: 1
+    password:
+    timeout: 50000
+
+

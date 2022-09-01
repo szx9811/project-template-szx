@@ -3,17 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ovit.agriLoan</groupId>
-    <artifactId>agriLoan-lib</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <groupId>com.template</groupId>
+    <artifactId>template-lib</artifactId>
+    <version>1.0</version>
 
-    <name>agriLoan-lib</name>
+    <name>template-lib</name>
 
 
     <parent>
-        <groupId>com.ovit.agriLoan</groupId>
-        <artifactId>agriLoan</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
+        <groupId>com.template</groupId>
+        <artifactId>template</artifactId>
+        <version>1.0</version>
     </parent>
     <dependencies>
 
@@ -106,6 +106,17 @@
             <groupId>io.github.swagger2markup</groupId>
             <artifactId>swagger2markup</artifactId>
             <version>1.3.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.belerweb</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
         </dependency>
 
     </dependencies>
